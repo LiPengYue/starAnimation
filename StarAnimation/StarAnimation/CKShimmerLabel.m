@@ -1,9 +1,9 @@
 //
-//  AppDelegate.h
-//  StarAnimation
+//  CKShimmerLabel.m
+//  CKShimmerLabel
 //
-//  Created by 李鹏跃 on 17/1/24.
-//  Copyright © 2017年 13lipengyue. All rights reserved.
+//  Created by caokun on 16/8/16.
+//  Copyright © 2016年 caokun. All rights reserved.
 //
 #import "CKShimmerLabel.h"
 

@@ -174,10 +174,10 @@
     _littleRadius = self.radius * sin(littleRadius * th)/cos(36 * th); /*计算小圆半径r0 */
 }
 
+//动画：
 - (void)animationStartWithView: (UIView *)view {
-
     
-    
+    //这里预留了view的接口 如果想自己设计动画可以改一下
       //创建layer
     CAShapeLayer *shapeLayer = [CAShapeLayer layer];
     CGPathRef path = [self starPathWithRect:self.bounds andPathBlock:nil];
@@ -199,7 +199,6 @@
     keyAnimation.duration = 6.0;
     keyAnimation.removedOnCompletion = NO;
     keyAnimation.fillMode = kCAFillModeForwards;
-    
     
     
     /**
